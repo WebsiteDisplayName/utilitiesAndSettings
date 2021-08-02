@@ -1,0 +1,27 @@
+Javascript Code Snippet for vscode
+
+
+{
+    "Arrow function": {
+		"prefix": "af",
+		"body": [
+			"let ${1:functionName} = (${2:parameter}) => {\n\n\t${3:expression}\n\treturn ${4:result}\n};"
+		]
+	},
+	"Arrow function in-line": {
+		"prefix": "afi",
+		"body": "(${1:paramater}) => ${2:expression}"
+	},
+	"Function declaration": {
+		"prefix": "fd",
+		"body": [
+			"function ${1:functionName}(${2:parameter}){\n\n\t${3:expression}\n\treturn ${4:result}\n}"
+		]
+	},
+	"Function expression": {
+		"prefix": "fe",
+		"body": [
+			"let ${1:functionName} = function(${2:parameter}){\n\n\t${3:expression}\n\treturn ${4:result}\n};"
+		]
+	},
+}
